@@ -1,0 +1,846 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 280px;
+    }
+
+
+    .content_flex
+    {
+        margin-bottom: 92px;
+    }
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 32px);
+    }
+
+    .content .page_title.big_margin
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu
+    {
+        padding-top: 140px;
+    }
+
+
+    #menu .row
+    {
+        margin-left: -24px;
+    }
+
+    #menu .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    #menu .main
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    #menu .sub
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #menu .sub > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside > * + *
+    {
+        margin-top: 60px;
+    }
+
+
+
+    aside .links .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 28px;
+    }
+
+
+    aside .links .items
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    aside .links .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        padding-left: 95px;
+    }
+
+
+
+    .page_title
+    {
+        font-size: 64px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .pre_title
+    {
+        font-size: 140px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 116px;
+    }
+
+
+    .first_section .cont
+    {
+        height: 800px;
+        padding-top: 226px;
+        padding-bottom: 96px;
+    }
+
+
+    .first_section .data
+    {
+        width: 532px;
+        margin: 0 132px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 80px;
+        line-height: 70px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 28px;
+        line-height: 36px;
+
+        width: 492px;
+        margin-top: 28px;
+    }
+
+
+    .first_section .btns
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .video_link
+    {
+        bottom: 96px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .cont > .block_head
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .about_block .data
+    {
+        width: calc(100% - 584px);
+    }
+
+
+    .about_block .image
+    {
+        width: 554px;
+        margin-top: 98px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions
+    {
+        margin-bottom: 100px;
+        padding: 100px 0;
+    }
+
+
+
+    /*----------------
+        Technology
+    ----------------*/
+    .technology .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .data
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .product_info .pluses
+    {
+        margin-top: 52px;
+    }
+
+    .product_info .pluses .title
+    {
+        font-size: 34px;
+        line-height: 44px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .product_info .gallery
+    {
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+
+    .product_info .features
+    {
+        margin-top: 52px;
+
+        order: 3;
+    }
+
+    .product_info .features .title
+    {
+        font-size: 34px;
+        line-height: 44px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .product_info .features table th
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding-bottom: 12px;
+    }
+
+    .product_info .features table td
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        min-width: 120px;
+        padding: 12px 0;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        width: 593px;
+        max-width: 100%;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .contacts_block .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_block .icon
+    {
+        width: 240px;
+    }
+
+
+    .contacts_block .text_block
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        width: 360px;
+    }
+
+
+    .contacts_block .item .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .contacts_block .phone,
+    .contacts_block .email
+    {
+        font-size: 28px;
+    }
+
+
+    .contacts_block .callback_btn,
+    .contacts_block .feedback_btn
+    {
+        min-width: 240px;
+        padding: 28px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .catalog .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .catalog .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .catalog .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+    .content .catalog .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .catalog .category .info
+    {
+        padding: 23px;
+    }
+
+    .catalog .category .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 280px);
+    }
+
+
+    .about_info .video_link
+    {
+        font-size: 20px;
+
+        width: 240px;
+    }
+
+    .about_info .video_link .icon
+    {
+        top: 40px;
+
+        width: 88px;
+        height: 88px;
+    }
+
+    .about_info .video_link .name
+    {
+        bottom: 40px;
+    }
+
+
+
+    /*----------------------
+        About production
+    ----------------------*/
+    .about_production
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .about_production .text_block
+    {
+        width: 100%;
+        margin: 40px 0 0;
+
+        order: 2;
+    }
+
+
+    .about_production .gallery
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        About team
+    ----------------*/
+    .about_team
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .about_team .text_block
+    {
+        width: 100%;
+        margin: 40px 0 0;
+
+        order: 2;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .partners .data
+    {
+        width: calc(100% - 444px);
+    }
+
+
+    .partners .image
+    {
+        width: 424px;
+    }
+
+
+
+    /*----------------
+        AAvantages
+    ----------------*/
+    .advantages.bg
+    {
+        margin-bottom: 100px;
+        padding: 100px 0;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -52px;
+        margin-left: -40px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 52px;
+        margin-left: 40px;
+    }
+
+
+    .advantages.bg .row
+    {
+        margin-bottom: -52px;
+    }
+
+    .advantages.bg .row > *
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 92px;
+        height: 92px;
+    }
+
+    .advantages .item .icon img
+    {
+        top: 24px;
+        left: 24px;
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .advantages .item .icon + div
+    {
+        width: calc(100% - 140px);
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 22px;
+    }
+
+    .advantages .item .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .data
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .article_info .date
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .article_info .gallery
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .category_info .text_block
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .category_info .image
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .contacts_info .page_title
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: calc(100% - 564px);
+    }
+
+
+    .contacts_info .data .row
+    {
+        margin-bottom: -60px;
+        margin-left: -60px;
+    }
+
+    .contacts_info .data .row > *
+    {
+        width: calc(50% - 60px);
+        margin-bottom: 60px;
+        margin-left: 60px;
+    }
+
+
+    .contacts_info .item .name
+    {
+        font-size: 22px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .contacts_info .item .phone,
+    .contacts_info .item .email
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .item .time,
+    .contacts_info .item .location
+    {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    .contacts_info .item .requisites
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .contacts_info .item .socials a + a
+    {
+        margin-left: 36px;
+    }
+
+
+    .contacts_info .item .map_link
+    {
+        margin-top: 32px;
+        padding: 32px;
+    }
+
+
+    .contacts_info .gallery
+    {
+        width: 516px;
+    }
+
+
+    .contacts_info .map
+    {
+        margin-top: 80px;
+    }
+
+
+
+    /*----------------------
+        Engineering info
+    ----------------------*/
+    .engineering_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .engineering_info .data
+    {
+        width: calc(100% - 308px);
+    }
+
+
+    .engineering_info .image
+    {
+        width: 260px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-left: -32px;
+    }
+
+    .steps .row > *
+    {
+        max-width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+
+    .steps .item .number
+    {
+        font-size: 60px;
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .steps .item .number + div
+    {
+        width: calc(100% - 112px);
+    }
+
+
+
+    /*---------------
+        Resources
+    ---------------*/
+    .resources
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .resources .text_block
+    {
+        width: calc(100% - 564px);
+    }
+
+
+    .resources .image
+    {
+        width: 516px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        display: none;
+    }
+
+
+    footer .download_link
+    {
+        margin-left: auto;
+    }
+
+
+    footer .email
+    {
+        width: calc(100% - 282px);
+    }
+
+
+    footer .socials
+    {
+        position: absolute;
+        top: -96px;
+        left: 0;
+
+        width: 278px;
+        margin: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

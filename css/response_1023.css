@@ -1,0 +1,579 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .content_flex
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu .main
+    {
+        font-size: 24px;
+    }
+
+
+    #menu .sub
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 60px;
+        line-height: calc(100% + 10px);
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .pre_title
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(100% + 12px);
+    }
+
+
+    .block_head .link
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Mob. all link
+    -------------------*/
+    .mob_all_link
+    {
+        display: block;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .first_section .cont
+    {
+        padding-top: 260px;
+        padding-bottom: 440px;
+    }
+
+
+    .first_section .data
+    {
+        width: 600px;
+        margin: 0 45px;
+    }
+
+
+    .first_section .video_link
+    {
+        right: auto;
+        bottom: 80px;
+        left: 75px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions
+    {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
+
+
+    .solutions .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .solutions .item
+    {
+        height: 196px;
+    }
+
+
+    .solutions .item .name
+    {
+        width: 100%;
+        max-width: 100%;
+        padding: 28px;
+    }
+
+
+    .solutions .item .link
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Technology
+    ----------------*/
+    .technology
+    {
+        margin-bottom: 80px;
+        padding-top: 32px;
+    }
+
+
+    .technology .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .technology .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 60px);
+        margin: -15px -30px;
+        padding: 15px 30px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .technology .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .technology .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .technology .row > *
+    {
+        display: inline-block;
+
+        width: 299px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .technology .row > * + *
+    {
+        margin-left: 27px;
+    }
+
+
+    .technology .item .number
+    {
+        font-size: 72px;
+
+        top: 59px;
+        left: 29px;
+    }
+
+    .technology .item .name
+    {
+        padding: 29px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .articles .page_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .articles .row
+    {
+        margin-left: -24px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(50% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        width: 100%;
+    }
+
+    .gallery figcaption
+    {
+        margin-top: 48px;
+        padding: 0;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .gallery
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .product_info .pluses
+    {
+        margin-top: 48px;
+    }
+
+    .product_info .pluses .title
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .product_info .pluses .items
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .product_info .features
+    {
+        margin-top: 48px;
+    }
+
+    .product_info .features .title
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .product_info .features table td
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        min-width: 100px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .contacts_block .item
+    {
+        margin-top: 52px;
+        margin-left: 44px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .catalog .row > *,
+    .content .catalog .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .catalog .row > *.mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .data
+    {
+        width: 100%;
+    }
+
+
+    .partners .image
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        AAvantages
+    ----------------*/
+    .advantages.bg
+    {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
+
+
+    .advantages.bg .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .advantages .row,
+    .advantages.bg .row
+    {
+        margin-left: 0;
+    }
+
+    .advantages .row > *,
+    .advantages.bg .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > *.mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .gallery
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 450px;
+    }
+
+
+
+    /*----------------------
+        Engineering info
+    ----------------------*/
+    .engineering_info .data
+    {
+        width: calc(100% - 256px);
+    }
+
+
+    .engineering_info .image
+    {
+        width: 224px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -48px;
+    }
+
+    .steps .row > *
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .steps .item
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+
+    footer .info .cont + .cont
+    {
+        margin-top: 56px;
+    }
+
+
+
+    footer .logo,
+    footer .data,
+    footer .slogan,
+    footer .phone,
+    footer .location,
+    footer .feedback_btn,
+    footer .email,
+    footer .socials
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    footer .download_link
+    {
+        width: 100%;
+        height: 95px;
+        margin-left: 0;
+    }
+
+
+    footer .slogan + .data
+    {
+        width: 100%;
+        margin-top: 47px;
+    }
+
+
+    footer .socials
+    {
+        right: 0;
+        left: auto;
+    }
+
+
+    footer .copyright
+    {
+        width: auto;
+    }
+
+    footer .copyright + .data
+    {
+        width: calc(100% - 197px);
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

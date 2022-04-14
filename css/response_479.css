@@ -1,0 +1,525 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 56px;
+    }
+
+
+    .content_flex,
+    .content_flex.min_margin
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-------------------
+        Mob. all link
+    -------------------*/
+    .mob_all_link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        margin-bottom: 24px;
+    }
+
+
+    header .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    header .menu_btn
+    {
+        width: 41px;
+        margin-right: 28px;
+    }
+
+    header .menu_btn .icon
+    {
+        width: 41px;
+    }
+
+
+    header .logo
+    {
+        width: calc(100% - 69px);
+        height: 99px;
+        padding: 15px 31px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu .row
+    {
+        margin-bottom: -52px;
+        margin-left: 0;
+    }
+
+    #menu .row > *
+    {
+        width: 100%;
+        margin-bottom: 52px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        padding-left: 69px;
+    }
+
+
+    .page_title
+    {
+        font-size: 42px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .block_head .pre_title
+    {
+        margin-bottom: -8px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .first_section .cont
+    {
+        padding-top: 160px;
+        padding-bottom: 184px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 46px;
+        line-height: 50px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 17px;
+        line-height: 26px;
+
+        margin-top: 20px;
+    }
+
+
+    .first_section .scroll_btn
+    {
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .first_section .scroll_btn span
+    {
+        height: 40px;
+        padding: 14px 24px;
+    }
+
+    .first_section .scroll_btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .first_section .video_link
+    {
+        font-size: 14px;
+        line-height: 100%;
+
+        bottom: 60px;
+        left: 20px;
+
+        display: flex;
+
+        width: auto;
+        height: auto;
+        padding: 20px 24px 20px 17px;
+
+        white-space: nowrap;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .first_section .video_link .icon
+    {
+        position: relative;
+        top: 0;
+
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+
+    .first_section .video_link .name
+    {
+        position: relative;
+        bottom: 0;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .item .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+
+    /*----------------
+        Technology
+    ----------------*/
+    .technology
+    {
+        margin-bottom: 70px;
+        padding-top: 12px;
+    }
+
+
+    .technology .row > *
+    {
+        width: 223px;
+    }
+
+
+    .technology .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery figcaption
+    {
+        width: calc(100% - 128px);
+        margin-top: 28px;
+    }
+
+
+    .gallery.left .swiper-button-next
+    {
+        left: 56px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .pluses .title,
+    .product_info .features .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+    .product_info .features table td
+    {
+        min-width: 56px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block
+    {
+        margin-bottom: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    .contacts_block .text_block
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .contacts_block .item .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .contacts_block .phone,
+    .contacts_block .email
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_block .callback_btn,
+    .contacts_block .feedback_btn
+    {
+        min-width: 260px;
+        margin-top: 24px;
+        padding: 28px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .catalog .category .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    /*----------------
+        AAvantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .advantages .row > *
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advantages .item .icon img
+    {
+        top: 20px;
+        left: 20px;
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .advantages .item .icon + div
+    {
+        width: calc(100% - 116px);
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 20px;
+    }
+
+    .advantages .item .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .contacts_info .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .contacts_info .item .phone,
+    .contacts_info .item .email
+    {
+        font-size: 26px;
+    }
+
+
+    .contacts_info .item .time,
+    .contacts_info .item .location
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .contacts_info .gallery
+    {
+        margin-top: 48px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 400px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .steps .item .number
+    {
+        font-size: 54px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+    .steps .item .number + div
+    {
+        width: calc(100% - 100px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .download_link
+    {
+        padding: 15px 28px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

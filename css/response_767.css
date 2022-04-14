@@ -1,0 +1,803 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 68px;
+    }
+
+
+    .content_flex,
+    .content_flex.min_margin
+    {
+        margin-bottom: 72px;
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 52px;
+    }
+
+
+    .pagination a
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    header .logo
+    {
+        width: 292px;
+        height: 108px;
+        margin-right: auto;
+        padding: 16px 36px;
+    }
+
+
+    header .data
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu
+    {
+        padding-top: 104px;
+    }
+
+
+    #menu .row
+    {
+        margin-left: -20px;
+    }
+
+    #menu .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    #menu .main
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    aside .links
+    {
+        min-width: 51%;
+    }
+
+    aside .links + .links
+    {
+        margin-left: 0;
+    }
+
+
+    aside .links .items
+    {
+        font-size: 18px;
+
+        left: -24px;
+
+        padding: 72px 24px 21px;
+    }
+
+    aside .links .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 52px;
+    }
+
+    .page_title.word_break
+    {
+        word-break: break-all;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .pre_title
+    {
+        font-size: 64px;
+        line-height: 84px;
+
+        margin-bottom: 0;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .first_section .cont
+    {
+        padding-top: 200px;
+        padding-bottom: 420px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 60px;
+        line-height: 100%;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 21px;
+        line-height: 31px;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .first_section .video_link
+    {
+        left: 24px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        margin-bottom: 72px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .solutions .row > *
+    {
+        width: calc(100% + 1px);
+    }
+
+
+    .solutions .item .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Technology
+    ----------------*/
+    .technology
+    {
+        margin-bottom: 72px;
+        padding-top: 24px;
+    }
+
+
+    .technology .row > *
+    {
+        width: 252px;
+    }
+
+    .technology .row > * + *
+    {
+        margin-left: 24px;
+    }
+
+
+    .technology .item .number
+    {
+        font-size: 64px;
+
+        top: 47px;
+        left: 27px;
+    }
+
+    .technology .item .name
+    {
+        font-size: 21px;
+
+        padding: 27px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .page_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery figcaption
+    {
+        width: calc(100% - 156px);
+        margin-top: 40px;
+    }
+
+
+    .gallery.left .swiper-button-next
+    {
+        left: 68px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .gallery
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .product_info .pluses .title,
+    .product_info .features .title
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .product_info .features table td
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        min-width: 80px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block
+    {
+        margin-bottom: 72px;
+        padding-bottom: 72px;
+    }
+
+
+    .contacts_block .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_block .icon
+    {
+        display: none;
+    }
+
+
+    .contacts_block .text_block
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        width: 100%;
+    }
+
+
+    .contacts_block .item,
+    .contacts_block .item + .item
+    {
+        width: 100%;
+        margin-top: 48px;
+        margin-left: 0;
+    }
+
+
+    .contacts_block .item .name
+    {
+        font-size: 22px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_block .phone,
+    .contacts_block .email
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .catalog .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .catalog .row > *,
+    .content .catalog .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .page_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .about_info .video_link
+    {
+        font-size: 18px;
+
+        width: 220px;
+        margin-left: 0;
+    }
+
+    .about_info .video_link .icon
+    {
+        top: 32px;
+
+        width: 84px;
+        height: 84px;
+    }
+
+    .about_info .video_link .name
+    {
+        bottom: 32px;
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+
+
+    /*----------------
+        AAvantages
+    ----------------*/
+    .advantages.bg
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 21px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .block_head .title
+    {
+        line-height: calc(100% + 4px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .contacts_info .page_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_info .data .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+    .contacts_info .data .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_info .item .phone,
+    .contacts_info .item .email
+    {
+        font-size: 28px;
+    }
+
+
+    .contacts_info .item .time,
+    .contacts_info .item .location
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .contacts_info .gallery
+    {
+        margin-top: 52px;
+    }
+
+
+
+    /*----------------------
+        Engineering info
+    ----------------------*/
+    .engineering_info .data
+    {
+        width: 100%;
+    }
+
+
+    .engineering_info .image
+    {
+        margin: 40px auto 0;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-bottom: 72px;
+        padding: 60px 0 72px;
+    }
+
+
+    .steps .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+    .steps .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Resources
+    ---------------*/
+    .resources
+    {
+        margin-bottom: 72px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding: 70px 24px 58px;
+    }
+
+    footer .info .cont + .cont
+    {
+        margin-top: 44px;
+    }
+
+
+    footer .bottom
+    {
+        padding: 33px 0 38px;
+    }
+
+
+    footer .logo,
+    footer .data,
+    footer .slogan,
+    footer .phone,
+    footer .location,
+    footer .feedback_btn,
+    footer .email,
+    footer .socials
+    {
+        width: 100%;
+    }
+
+
+    footer .logo + .data
+    {
+        position: absolute;
+        z-index: 3;
+        right: 0;
+        bottom: 247px;
+        left: 0;
+
+        width: calc(100% - 96px);
+        margin: auto;
+    }
+
+
+    footer .slogan
+    {
+        font-size: 14px;
+        line-height: 26px;
+
+        width: 250px;
+    }
+
+    footer .slogan + .data
+    {
+        margin-top: 44px;
+        padding-bottom: 132px;
+    }
+
+
+    footer .phone
+    {
+        font-size: 20px;
+
+        order: 1;
+    }
+
+
+    footer .location
+    {
+        font-size: 16px;
+        line-height: 28px;
+
+        width: 212px;
+        margin-top: 32px;
+        margin-left: 0;
+
+        order: 3;
+    }
+
+
+    footer .feedback_btn
+    {
+        margin-top: 32px;
+
+        order: 2;
+    }
+
+    footer .feedback_btn .btn
+    {
+        font-size: 16px;
+    }
+
+    footer .feedback_btn .icon
+    {
+        margin-right: 15px;
+    }
+
+
+    footer .email
+    {
+        font-size: 16px;
+
+        margin-top: 32px;
+        margin-left: 0;
+
+        order: 4;
+    }
+
+
+    footer .socials
+    {
+        position: relative;
+        top: 0;
+
+        margin-top: 56px;
+
+        order: 5;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+    }
+
+    footer .copyright + .data
+    {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+
+    footer .links
+    {
+        width: 100%;
+    }
+
+
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
