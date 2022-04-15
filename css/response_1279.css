@@ -317,11 +317,15 @@
         width: 100%;
     }
 
+    .about_block .data .image
+    {
+        display: block;
+    }
+
 
     .about_block .image
     {
-        width: 100%;
-        margin-top: 40px;
+        display: none;
     }
 
 
@@ -333,30 +337,12 @@
     {
         margin-bottom: 92px;
         padding: 92px 0;
-
-        background: #f2f2f2;
     }
 
 
     .solutions .block_head
     {
         margin-bottom: 60px;
-    }
-
-    .solutions .block_head.white
-    {
-        color: var(--text_color);
-    }
-
-    .solutions .block_head.white .pre_title
-    {
-        color: #e6e6e6;
-    }
-
-
-    .solutions .images
-    {
-        display: none;
     }
 
 
@@ -369,11 +355,6 @@
     .solutions .item
     {
         height: 310px;
-    }
-
-    .solutions .item .thumb
-    {
-        display: block;
     }
 
 
@@ -574,7 +555,7 @@
 
     .contacts_info .gallery
     {
-        width: 593px;
+        width: 100%;
         margin-top: 40px;
         margin-left: 0;
     }
@@ -624,6 +605,34 @@
         width: 592px;
         margin-top: 40px;
         margin-left: 0;
+    }
+
+
+
+    /*-------------------------
+        Technology features
+    -------------------------*/
+    .technology_features .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .technology_features .item .title
+    {
+        font-size: 20px;
+    }
+
+
+    .technology_features .item li
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .technology_features .item ul li:before
+    {
+        top: 10px;
     }
 
 

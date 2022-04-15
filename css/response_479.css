@@ -391,56 +391,6 @@
 
 
 
-    /*----------------
-        AAvantages
-    ----------------*/
-    .advantages .row
-    {
-        margin-bottom: -40px;
-    }
-
-    .advantages .row > *
-    {
-        margin-bottom: 40px;
-    }
-
-
-    .advantages .item .icon
-    {
-        width: 80px;
-        height: 80px;
-    }
-
-    .advantages .item .icon img
-    {
-        top: 20px;
-        left: 20px;
-
-        width: 80px;
-        height: 80px;
-    }
-
-    .advantages .item .icon + div
-    {
-        width: calc(100% - 116px);
-    }
-
-
-    .advantages .item .name
-    {
-        font-size: 20px;
-    }
-
-    .advantages .item .desc
-    {
-        font-size: 15px;
-        line-height: 23px;
-
-        margin-top: 12px;
-    }
-
-
-
     /*-------------------
         Contacts info
     -------------------*/
@@ -505,6 +455,21 @@
     .steps .item .number + div
     {
         width: calc(100% - 100px);
+    }
+
+
+
+    /*--------------------
+        Gallery slider
+    --------------------*/
+    .gallery_slider .swiper-button-prev
+    {
+        left: 0;
+    }
+
+    .gallery_slider .swiper-button-next
+    {
+        right: 0;
     }
 
 

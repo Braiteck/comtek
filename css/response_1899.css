@@ -547,7 +547,7 @@
 
     .about_production .text_block
     {
-        width: calc(100% - 516px);
+        width: 50%;
     }
 
 
@@ -563,7 +563,7 @@
 
     .about_team .text_block
     {
-        width: calc(100% - 516px);
+        width: 50%;
     }
 
 
@@ -579,7 +579,7 @@
 
     .partners .data
     {
-        width: calc(100% - 516px);
+        width: 50%;
     }
 
 
@@ -741,6 +741,47 @@
 
 
 
+    /*---------------------
+        Technology info
+    ---------------------*/
+    .technology_info .data
+    {
+        width: calc(100% - 360px);
+    }
+
+
+
+    /*-------------------------
+        Technology features
+    -------------------------*/
+    .technology_features
+    {
+        padding: 72px 0 80px;
+    }
+
+
+    .technology_features .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+
+    /*--------------------
+        Gallery slider
+    --------------------*/
+    .gallery_slider .swiper-button-prev
+    {
+        left: 40px;
+    }
+
+    .gallery_slider .swiper-button-next
+    {
+        right: 40px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
@@ -779,6 +820,12 @@
 
         height: 80px;
         padding: 15px 32px;
+    }
+
+
+    footer .email
+    {
+        width: calc(100% - 530px);
     }
 
 

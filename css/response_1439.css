@@ -6,7 +6,7 @@
     -------------------*/
     :root
     {
-        --sidebar_width: 280px;
+        --sidebar_width: 230px;
     }
 
 
@@ -473,16 +473,20 @@
 
     .about_production .text_block
     {
-        width: 100%;
-        margin: 40px 0 0;
-
-        order: 2;
+        width: calc(100% - 444px);
     }
 
 
     .about_production .gallery
     {
-        margin-left: 0;
+        width: 412px;
+    }
+
+    .about_production .gallery figcaption
+    {
+        width: calc(100% - 168px);
+        margin-top: 28px;
+        padding: 0;
     }
 
 
@@ -498,10 +502,20 @@
 
     .about_team .text_block
     {
-        width: 100%;
-        margin: 40px 0 0;
+        width: calc(100% - 452px);
+    }
 
-        order: 2;
+
+    .about_team .gallery
+    {
+        width: 412px;
+    }
+
+    .about_team .gallery figcaption
+    {
+        width: calc(100% - 168px);
+        margin-top: 28px;
+        padding: 0;
     }
 
 
@@ -517,7 +531,7 @@
 
     .partners .data
     {
-        width: calc(100% - 444px);
+        width: calc(100% - 452px);
     }
 
 
@@ -803,6 +817,100 @@
     .resources .image
     {
         width: 516px;
+    }
+
+
+
+    /*---------------------
+        Technology info
+    ---------------------*/
+    .technology_info .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .technology_info .data
+    {
+        width: calc(100% - 280px);
+    }
+
+
+    .technology_info .video_link
+    {
+        font-size: 20px;
+
+        width: 240px;
+    }
+
+    .technology_info .video_link .icon
+    {
+        top: 40px;
+
+        width: 88px;
+        height: 88px;
+    }
+
+    .technology_info .video_link .name
+    {
+        bottom: 40px;
+    }
+
+
+
+    /*-------------------------
+        Technology features
+    -------------------------*/
+    .technology_features
+    {
+        padding: 64px 0 72px;
+    }
+
+
+    .technology_features .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .technology_features .row
+    {
+        margin-bottom: -52px;
+        margin-left: -32px;
+    }
+
+    .technology_features .row > *
+    {
+        width: calc(25% - 32px);
+        margin-bottom: 52px;
+        margin-left: 32px;
+    }
+
+
+    .technology_features .item .title
+    {
+        font-size: 22px;
+    }
+
+    .technology_features .item li
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .technology_features .item ul li:before
+    {
+        top: 11px;
+    }
+
+
+
+    /*--------------------
+        Gallery slider
+    --------------------*/
+    .gallery_slider
+    {
+        margin-bottom: 100px;
     }
 
 

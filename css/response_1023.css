@@ -420,7 +420,7 @@
     .advantages.bg
     {
         margin-bottom: 80px;
-        padding: 80px 0;
+        padding: 80px 0 140px;
     }
 
 
@@ -433,6 +433,7 @@
     .advantages .row,
     .advantages.bg .row
     {
+        margin-bottom: -96px;
         margin-left: 0;
     }
 
@@ -440,7 +441,46 @@
     .advantages.bg .row > *
     {
         width: 100%;
+        margin-bottom: 96px;
         margin-left: 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 148px;
+        height: 148px;
+    }
+
+    .advantages .item .icon img
+    {
+        top: 34px;
+        left: 30px;
+
+        width: 178px;
+        height: 178px;
+    }
+
+    .advantages .item .icon + div
+    {
+        width: 403px;
+        max-width: calc(100% - 248px);
+        margin-right: auto;
+        margin-left: 100px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 28px;
+        line-height: 26px;
+    }
+
+    .advantages .item .desc
+    {
+        font-size: 18px;
+
+        margin-top: 40px;
     }
 
 
@@ -448,9 +488,9 @@
     /*--------------
         Articles
     --------------*/
-    .articles .row > *.mob_hide
+    .articles .row > *.tablet_hide
     {
-        display: none;
+        display: block;
     }
 
 
@@ -505,6 +545,37 @@
     {
         font-size: 16px;
         line-height: 24px;
+    }
+
+
+
+    /*-------------------------
+        Technology features
+    -------------------------*/
+    .technology_features .row > *
+    {
+        width: calc(50% - 32px);
+    }
+
+
+
+    /*--------------------
+        Gallery slider
+    --------------------*/
+    .gallery_slider
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .gallery_slider .swiper-button-prev
+    {
+        left: 30px;
+    }
+
+    .gallery_slider .swiper-button-next
+    {
+        right: 30px;
     }
 
 

@@ -48,12 +48,9 @@ $(() => {
 				},
 				breakpoints: {
 					0: {
-						slidesPerView: 1
-					},
-					768: {
 						slidesPerView: 2
 					},
-					1024: {
+					768: {
 						slidesPerView: 3
 					},
 					1280: {
@@ -76,7 +73,11 @@ $(() => {
 		$('.solutions .item').removeClass('hover')
 		$(this).addClass('hover')
 
+		$('.solutions').removeClass('bg')
 		$('.solutions .images img').removeClass('show')
+
+		$('.solutions').addClass('bg')
+		$('.solutions .images').fadeIn(300)
 		$('.solutions .images img').eq(itemIndex).addClass('show')
 	})
 
@@ -159,16 +160,24 @@ $(() => {
 		$('aside .links .title').click(function (e) {
 			e.preventDefault()
 
-			$('aside .links').removeClass('open')
-			$('aside .links .title').removeClass('active')
+			if (!$(this).hasClass('active')) {
+				$('aside .links').removeClass('open')
+				$('aside .links .title').removeClass('active')
 
-			$(this).closest('.links').addClass('open')
-			$(this).addClass('active')
+				$(this).closest('.links').addClass('open')
+				$(this).addClass('active')
 
-			$('aside .links .items').hide()
-			$(this).next().fadeIn(300)
+				$('aside .links .items').hide()
+				$(this).next().fadeIn(300)
 
-			if (is_touch_device()) $('body').css('cursor', 'pointer')
+				if (is_touch_device()) $('body').css('cursor', 'pointer')
+			} else {
+				$('aside .links').removeClass('open')
+				$('aside .links .title').removeClass('active')
+				$('aside .links .items').hide()
+
+				if (is_touch_device()) $('body').css('cursor', 'default')
+			}
 		})
 
 

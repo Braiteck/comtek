@@ -343,6 +343,12 @@
         margin-left: 0;
     }
 
+    .articles .row > *.mob_hide,
+    .articles .row > *.tablet_hide
+    {
+        display: none;
+    }
+
 
 
     /*-------------
@@ -483,21 +489,14 @@
     {
         font-size: 18px;
 
-        width: 220px;
+        width: 100%;
         margin-left: 0;
     }
 
     .about_info .video_link .icon
     {
-        top: 32px;
-
         width: 84px;
         height: 84px;
-    }
-
-    .about_info .video_link .name
-    {
-        bottom: 32px;
     }
 
 
@@ -521,9 +520,43 @@
     }
 
 
+    .advantages .row,
+    .advantages.bg .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .advantages .row > *,
+    .advantages.bg .row > *
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .advantages .item .icon
+    {
+        display: none;
+    }
+
+    .advantages .item .icon + div
+    {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+
     .advantages .item .name
     {
-        font-size: 21px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .advantages .item .desc
+    {
+        font-size: 16px;
+
+        margin-top: 12px;
     }
 
 
@@ -645,6 +678,79 @@
     .resources
     {
         margin-bottom: 72px;
+    }
+
+
+
+    /*---------------------
+        Technology info
+    ---------------------*/
+    .technology_info .video_link
+    {
+        font-size: 18px;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .technology_info .video_link .icon
+    {
+        width: 84px;
+        height: 84px;
+    }
+
+
+    .technology_info .data
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+
+
+    /*-------------------------
+        Technology features
+    -------------------------*/
+    .technology_features
+    {
+        padding: 60px 0;
+    }
+
+
+    .technology_features .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+    .technology_features .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Gallery slider
+    --------------------*/
+    .gallery_slider
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .gallery_slider .swiper-button-prev
+    {
+        left: 24px;
+    }
+
+    .gallery_slider .swiper-button-next
+    {
+        right: 24px;
     }
 
 
