@@ -693,6 +693,11 @@
         margin-left: 0;
     }
 
+    .technology_info .video_link .thumb
+    {
+        padding-bottom: 240px;
+    }
+
     .technology_info .video_link .icon
     {
         width: 84px;

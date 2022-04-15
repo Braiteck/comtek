@@ -618,6 +618,12 @@
     }
 
 
+    .technology_features .row > *
+    {
+        width: calc(50% - 32px);
+    }
+
+
     .technology_features .item .title
     {
         font-size: 20px;

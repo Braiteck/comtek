@@ -549,16 +549,6 @@
 
 
 
-    /*-------------------------
-        Technology features
-    -------------------------*/
-    .technology_features .row > *
-    {
-        width: calc(50% - 32px);
-    }
-
-
-
     /*--------------------
         Gallery slider
     --------------------*/

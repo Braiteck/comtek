@@ -865,7 +865,7 @@ header.absolute .download_link
     border-color: transparent;
 }
 
-.menu_open header .menu_item > a:not(.active),
+.menu_open header .menu,
 .menu_open header .phone,
 .menu_open header .download_link
 {
